@@ -38,9 +38,10 @@ public class login_page_c extends AppCompatActivity {
                     else {
                         Intent intent = new Intent(login_page_c.this, custom_list_view_c.class);
                         startActivity(intent);
+                        Toast.makeText(login_page_c.this, "Login Successful", Toast.LENGTH_SHORT).show();
                     }
 
-                    Toast.makeText(login_page_c.this, "login successful", Toast.LENGTH_SHORT).show();
+
                 }
             }
         });

@@ -21,11 +21,11 @@ public class custom_list_adapter_c extends ArrayAdapter {
 
     private final String[] food_name;
 
-    private final Integer[] food_price;
+    private final String[] food_price;
 
     private final Button btnbuy;
 
-    public custom_list_adapter_c(@NonNull Activity context, Integer[] img_id,String[] food_name,Integer[] food_price,Button btnbuy) {
+    public custom_list_adapter_c(@NonNull Activity context, Integer[] img_id,String[] food_name,String[] food_price,Button btnbuy) {
         super(context, R.layout.custom_list_adapter,food_name);
         this.context=context;
         this.img_id=img_id;

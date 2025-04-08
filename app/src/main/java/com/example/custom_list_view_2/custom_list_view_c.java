@@ -13,11 +13,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class custom_list_view_c extends AppCompatActivity {
 
-    Integer[] img_id = {R.drawable.burger,R.drawable.coffee,R.drawable.hotdog,R.drawable.pizza};
+    Integer[] img_id = {R.drawable.burger,R.drawable.coffee,R.drawable.hotdog,R.drawable.pizza,R.drawable.cold_coffee,R.drawable.noddles,R.drawable.panner_tikka,R.drawable.manchuriyan};
 
-    String[] food_name = {"Burger","Coffee","Hotdog","Pizza"};
+    String[] food_name = {"Burger","Coffee","Hotdog","Pizza","Cold Coffee","Noodles","Panner Tikka","Manchuriyan"};
 
-    Integer[] food_price = {100,50,200,400};
+    String[] food_price = {"\u20B9"+"100","\u20B9"+"50","\u20B9"+"200","\u20B9"+"400","\u20B9"+"200","\u20B9"+"200","\u20B9"+"300","\u20B9"+"350"};
 
     ListView lv1;
 
